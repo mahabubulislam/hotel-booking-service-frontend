@@ -1,4 +1,4 @@
-import heroImg from '../../assets/homepage-hero.jpg'
+import heroImg from '@/assets/homepage-hero.jpg'
 const Hero = () => {
   return (
     <section className='relative'>

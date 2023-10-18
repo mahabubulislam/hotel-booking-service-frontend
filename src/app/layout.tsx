@@ -1,6 +1,6 @@
+import Header from '@/components/ui/Header/Header'
 import type { Metadata } from 'next'
 import { Marcellus } from 'next/font/google'
-
 import './globals.css'
 
 const marcellus = Marcellus({
@@ -19,7 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={marcellus.className}>{children}</body>
+      <body className={marcellus.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
