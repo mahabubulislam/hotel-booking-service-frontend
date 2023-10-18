@@ -16,12 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hero-overlay {
+  background-image: linear-gradient(180deg, #000000 0%, #000000a3 100%);
 }
