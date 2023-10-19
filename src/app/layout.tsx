@@ -1,3 +1,4 @@
+import Footer from '@/components/ui/Footer/Footer'
 import Header from '@/components/ui/Header/Header'
 import type { Metadata } from 'next'
 import { Marcellus } from 'next/font/google'
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={marcellus.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

@@ -4,9 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import NavLink from '../NavLink/NavLink'
+type NavItem = { name: string; path: string }
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const navItems = [
+  const navItems: NavItem[] = [
     { name: 'Home', path: '/' },
     { name: 'Rooms', path: '/rooms' },
     { name: 'About', path: '/about' },

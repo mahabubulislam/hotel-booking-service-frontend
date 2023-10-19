@@ -9,9 +9,10 @@ const Hero = () => {
       </div>
       <div className='absolute top-52 xl:top-[350px] w-full'>
         <div className='text-center  text-white w-full lg:w-1/2  mx-auto'>
-          <h1 className='text-7xl mb-5'>Boutique Private Island Resort</h1>
+          <h1 className='text-7xl mb-5'>OceanStay Private Island Resort</h1>
           <p className='font-semibold'>
-            The seaside haven of warmth, tranquility and restoration
+            Where the Gentle Caress of Waves Meets Unparalleled Luxury and
+            Serenity
           </p>
         </div>
       </div>
