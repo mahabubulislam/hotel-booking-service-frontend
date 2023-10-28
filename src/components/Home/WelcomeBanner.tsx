@@ -1,13 +1,14 @@
-import resortIcon from '@/assets/resort.png'
+import beachIcon from '@/assets/beach.png'
 import Image from 'next/image'
+import Carousel from './Carousel'
 const WelcomeBanner = () => {
   return (
-    <section className='my-10'>
-      <div className='flex flex-col items-center uppercase'>
-        <Image src={resortIcon.src} height={50} width={50} alt='' />
+    <section className='my-20  text-white'>
+      <div className='flex flex-col items-center mb-3 uppercase'>
+        <Image src={beachIcon.src} height={50} width={50} alt='' />
         <p>Welcome to OceanStay resort</p>
       </div>
-      <div className='w-3/4 mx-auto my-5 text-center'>
+      <div className='w-3/4 mx-auto pb-10 text-center '>
         <h1 className='text-6xl leading-normal'>
           In the Heart of the South Pacific, Outstanding Views
         </h1>
@@ -19,6 +20,7 @@ const WelcomeBanner = () => {
           coral reefs.
         </p>
       </div>
+      <Carousel />
     </section>
   )
 }

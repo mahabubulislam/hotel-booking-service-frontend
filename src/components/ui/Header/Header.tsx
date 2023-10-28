@@ -20,7 +20,7 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0  text-white py-4 z-10 transition-all duration-300 transform ${
         menuOpen ? 'scale-y-100 h-52 bg-gray-800 bg-opacity-50' : 'h-auto'
       } origin-top `}>
-      <div className='container mx-auto flex justify-between items-center'>
+      <div className='container mx-auto px-10 flex justify-between items-center'>
         <Link href={'/'}>
           <Image src={logo.src} height={150} width={150} alt='' />
         </Link>
