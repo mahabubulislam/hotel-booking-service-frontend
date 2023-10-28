@@ -1,10 +1,11 @@
 'use client'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
+import { Satisfy } from 'next/font/google'
 import Image from 'next/image'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
-
+const satisfy = Satisfy({ weight: '400', subsets: ['latin'] })
 const Carousel = () => {
   const settings = {
     infinite: false,
@@ -48,7 +49,7 @@ const Carousel = () => {
     'https://i.ibb.co/qsk69yZ/img-78-1-683x1024.jpg'
   ]
   return (
-    <div className='px-10 relative'>
+    <div className='p-10 relative'>
       <Slider {...settings}>
         {images.map((img) => (
           <div
@@ -64,6 +65,10 @@ const Carousel = () => {
           </div>
         ))}
       </Slider>
+      <h4 className={`${satisfy.className} text-2xl px-10 w-1/2 py-5`}>
+        Inspired by our history, surrounded by nature and designed to offer a
+        different experience
+      </h4>
     </div>
   )
 }
