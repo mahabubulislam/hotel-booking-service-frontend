@@ -1,4 +1,5 @@
 import Hero from '@/components/Home/Hero'
+import OurServices from '@/components/Home/OurServices'
 import OverviewVideo from '@/components/Home/OverviewVideo'
 import Rooms from '@/components/Home/Rooms'
 import WelcomeBanner from '@/components/Home/WelcomeBanner'
@@ -9,6 +10,7 @@ export default function Home() {
       <WelcomeBanner />
       <Rooms />
       <OverviewVideo />
+      <OurServices />
     </main>
   )
 }

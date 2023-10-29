@@ -1,9 +1,8 @@
 import Carousel from '@/components/ui/Carousel'
+import { satisfy } from '@/components/ui/font'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
-import { Satisfy } from 'next/font/google'
 import Image from 'next/image'
 
-const satisfy = Satisfy({ weight: '400', subsets: ['latin'] })
 const OutstandingView = () => {
   const settings = {
     infinite: false,
@@ -63,7 +62,8 @@ const OutstandingView = () => {
           </div>
         ))}
       </Carousel>
-      <h4 className={`${satisfy.className} text-2xl px-10  lg:w-1/2 py-5`}>
+      <h4
+        className={`${satisfy.className} text-teal-500 text-2xl px-10  lg:w-1/2 py-5`}>
         Inspired by our history, surrounded by nature and designed to offer a
         different experience
       </h4>
