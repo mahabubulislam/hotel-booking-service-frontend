@@ -1,9 +1,10 @@
 import beachIcon from '@/assets/beach.png'
 import Image from 'next/image'
-import Carousel from './Carousel'
+import OutstandingView from './OutStandingView'
+
 const WelcomeBanner = () => {
   return (
-    <section className='my-20  text-white'>
+    <section className='my-10  text-white'>
       <div className='flex flex-col items-center mb-3 uppercase'>
         <Image src={beachIcon.src} height={50} width={50} alt='' />
         <p>Welcome to OceanStay resort</p>
@@ -20,7 +21,7 @@ const WelcomeBanner = () => {
           coral reefs.
         </p>
       </div>
-      <Carousel />
+      <OutstandingView />
     </section>
   )
 }

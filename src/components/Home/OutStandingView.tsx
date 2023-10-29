@@ -1,12 +1,10 @@
-'use client'
+import Carousel from '@/components/ui/Carousel'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import { Satisfy } from 'next/font/google'
 import Image from 'next/image'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick-theme.css'
-import 'slick-carousel/slick/slick.css'
+
 const satisfy = Satisfy({ weight: '400', subsets: ['latin'] })
-const Carousel = () => {
+const OutstandingView = () => {
   const settings = {
     infinite: false,
     speed: 500,
@@ -50,7 +48,7 @@ const Carousel = () => {
   ]
   return (
     <div className='p-10 relative'>
-      <Slider {...settings}>
+      <Carousel settings={settings}>
         {images.map((img) => (
           <div
             key={img}
@@ -64,8 +62,8 @@ const Carousel = () => {
             />
           </div>
         ))}
-      </Slider>
-      <h4 className={`${satisfy.className} text-2xl px-10 w-1/2 py-5`}>
+      </Carousel>
+      <h4 className={`${satisfy.className} text-2xl px-10  lg:w-1/2 py-5`}>
         Inspired by our history, surrounded by nature and designed to offer a
         different experience
       </h4>
@@ -73,7 +71,7 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default OutstandingView
 type IClick = {
   onClick?: () => {}
 }

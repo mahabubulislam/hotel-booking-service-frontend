@@ -33,10 +33,10 @@ const OverviewVideo = () => {
           height={400}
           alt='Thumbnail'
         />
-        <div
-          className='absolute inset-0 flex items-center justify-center cursor-pointer'
-          onClick={openModal}>
-          <div className='border-white border rounded-full p-5 transition-all duration-300 transform hover:scale-110'>
+        <div className='absolute inset-0 flex items-center justify-center '>
+          <div
+            className='border-white border rounded-full p-5 transition-all duration-300 transform hover:scale-110 cursor-pointer'
+            onClick={openModal}>
             <PlayIcon color='white' width={'30px'} />
           </div>
         </div>

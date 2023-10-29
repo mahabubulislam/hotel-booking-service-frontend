@@ -19,3 +19,9 @@
 .hero-overlay {
   background-image: linear-gradient(180deg, #000000 0%, #000000a3 100%);
 }
+.slick-dots {
+  bottom: -85px !important;
+}
+.slick-dots li button::before {
+  color: white !important;
+}
