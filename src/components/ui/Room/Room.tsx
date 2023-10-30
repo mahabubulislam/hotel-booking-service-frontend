@@ -12,7 +12,7 @@ const Room = () => {
       <div className='relative'>
         <Image
           src={'https://i.ibb.co/pwBhY2y/room.jpg'}
-          width={500}
+          width={600}
           height={700}
           alt=''
         />

@@ -2,24 +2,26 @@ import Carousel from '@/components/ui/Carousel'
 import { satisfy } from '@/components/ui/font'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
+import { Settings } from 'react-slick'
 
 const OutstandingView = () => {
-  const settings = {
+  const settings: Settings = {
     infinite: false,
     speed: 500,
     slidesToShow: 3.2,
     slidesToScroll: 3,
     initialSlide: 0,
+    arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
-          dots: true
+          infinite: true
         }
       },
       {
@@ -88,7 +90,7 @@ const PrevArrow = ({ onClick }: IClick) => {
   return (
     <button
       onClick={onClick}
-      className='bg-white rounded-full  p-2 absolute top-1/2 left-6 z-50'>
+      className='bg-red rounded-full  p-2 absolute top-1/2 left-5 z-50'>
       <ChevronLeftIcon width={20} className='text-slate-900' />
     </button>
   )
