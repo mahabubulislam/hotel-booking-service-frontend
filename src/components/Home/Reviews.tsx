@@ -1,6 +1,6 @@
+import Carousel from '@/components/ui/Carousel'
 import Review from '@/components/ui/Review/Review'
 import { Settings } from 'react-slick'
-import Carousel from '../ui/Carousel'
 const Reviews = () => {
   const settings: Settings = {
     infinite: false,
