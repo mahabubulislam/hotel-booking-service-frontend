@@ -6,8 +6,8 @@ const Review = () => {
     <div className='grid  items-center lg:grid-cols-2'>
       <div className='mb-12 md:mt-12 lg:mt-0 lg:mb-0'>
         <div className='hover:scale-105 ease-in duration-300 relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14'>
-          <h2 className='mb-2 text-3xl font-bold text-teal-500 '>Anna Doe</h2>
-          <p className='mb-4 font-semibold text-teal-500'>Graphic designer</p>
+          <h2 className='mb-2 text-3xl font-bold text-primary '>Anna Doe</h2>
+          <p className='mb-4 font-semibold text-primary'>Graphic designer</p>
           <p className='mb-6 text-neutral-500 dark:text-neutral-300'>
             Nunc tincidunt vulputate elit. Mauris varius purus malesuada neque
             iaculis malesuada. Aenean gravida magna orci, non efficitur est

@@ -34,10 +34,10 @@ const Rooms = () => {
   }
   return (
     <section className='lg:px-20 px-10 mb-5 text-white pb-20'>
-      <p className=''>ENJOY WORLD-CLASS STAY EXPERIENCE</p>
+      <p className='text-primary'>ENJOY WORLD-CLASS STAY EXPERIENCE</p>
       <div className='flex justify-between items-center'>
         <h2 className='text-4xl'>The Accommodations</h2>
-        <Link className='p-3 bg-indigo-700' href={'/rooms'}>
+        <Link className='p-3 bg-secondary' href={'/rooms'}>
           Discover All Suites
         </Link>
       </div>

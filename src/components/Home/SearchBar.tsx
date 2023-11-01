@@ -9,14 +9,14 @@ const SearchBar = () => {
     <form className='flex items-center justify-center gap-3 mt-10 p-3'>
       <DatePicker
         className='w-72 relative '
-        inputClassName='relative transition-all duration-300 py-4 pl-4 pr-14 w-full border-gray-300 dark:bg-white dark:text-slate-700 dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-slate-600 bg-white focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-teal-500 focus:ring-teal-500/20'
+        inputClassName='relative transition-all duration-300 py-4 pl-4 pr-14 w-full border-gray-300 dark:bg-white dark:text-slate-700 dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-slate-600 bg-white focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-primary focus:ring-primary/20'
         footer={false}
       />
       <label htmlFor='bed-search-input' className='block relative'>
         <input
           id='bed-search-input'
           type='number'
-          className=' py-4 pl-4 pr-12  border-gray-300 dark:bg-white dark:text-slate-700 dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-slate-600 bg-white focus:ring  focus:border-teal-500 focus:ring-teal-500/20'
+          className=' py-4 pl-4 pr-12  border-gray-300 dark:bg-white dark:text-slate-700 dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-slate-600 bg-white focus:ring  focus:border-primary focus:ring-primary/20'
           placeholder='Bed'
         />
         <BedIcon
@@ -29,7 +29,7 @@ const SearchBar = () => {
         <input
           type='submit'
           id='search-btn'
-          className='cursor-pointer py-4 pl-4 pr-20 bg-teal-500 border-gray-300  text-white dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-slate-600 focus:ring  focus:border-teal-500 focus:ring-teal-500/20'
+          className='cursor-pointer py-4 pl-4 pr-20 bg-primary border-gray-300  text-white dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-slate-600 focus:ring  focus:border-primary focus:ring-primary/20'
           value={'Check Availability'}
         />
         <MagnifyingGlassIcon

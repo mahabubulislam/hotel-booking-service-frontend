@@ -65,7 +65,7 @@ const OutstandingView = () => {
         ))}
       </Carousel>
       <h4
-        className={`${satisfy.className} text-teal-500 text-2xl px-10  lg:w-1/2 py-5`}>
+        className={`${satisfy.className} text-primary text-2xl px-10  lg:w-1/2 py-5`}>
         Inspired by our history, surrounded by nature and designed to offer a
         different experience
       </h4>

@@ -43,7 +43,7 @@ const Room = () => {
       </div>
       <Link
         href={'/'}
-        className='flex gap-3 items-center py-2 text-teal-500 font-semibold'>
+        className='flex gap-3 items-center py-2 text-primary font-semibold'>
         Discover more <ArrowRightIcon width={20} />
       </Link>
     </div>

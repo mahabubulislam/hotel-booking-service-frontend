@@ -14,7 +14,7 @@ const Reviews = () => {
   return (
     <section className='container py-12 mx-auto md:px-6'>
       <div className='p-10 lg:w-1/3'>
-        <h6 className='text-xl text-teal-500 '>What Say Clients</h6>
+        <h6 className='text-xl text-primary '>What Say Clients</h6>
         <h2 className='text-4xl leading-normal text-white mt-3'>
           Our Clients are Important to Us
         </h2>
