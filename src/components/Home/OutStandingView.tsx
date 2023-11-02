@@ -82,7 +82,7 @@ const NextArrow = ({ onClick }: IClick) => {
     <button
       onClick={onClick}
       className='bg-white p-2 rounded-full absolute top-1/2 right-28'>
-      <ChevronRightIcon width={20} className='text-slate-900' />
+      <ChevronRightIcon width={20} className='text-accent' />
     </button>
   )
 }
@@ -91,7 +91,7 @@ const PrevArrow = ({ onClick }: IClick) => {
     <button
       onClick={onClick}
       className='bg-red rounded-full  p-2 absolute top-1/2 left-5 z-50'>
-      <ChevronLeftIcon width={20} className='text-slate-900' />
+      <ChevronLeftIcon width={20} className='text-accent' />
     </button>
   )
 }

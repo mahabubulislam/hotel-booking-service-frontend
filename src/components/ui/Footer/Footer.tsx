@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className=' bg-slate-900 text-white py-4'>
+      <section className=' bg-accent text-white py-4'>
         <div className='container mx-auto text-center'>
           <div className='mt-4'>
             <Link

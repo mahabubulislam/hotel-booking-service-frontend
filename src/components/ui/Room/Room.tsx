@@ -17,7 +17,7 @@ const Room = () => {
           height={700}
           alt=''
         />
-        <span className='absolute top-5 left-3 bg-white text-slate-900 p-2'>
+        <span className='absolute top-5 left-3 bg-white text-accent p-2'>
           999/Night
         </span>
       </div>

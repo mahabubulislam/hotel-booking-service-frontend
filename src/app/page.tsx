@@ -7,7 +7,7 @@ import WelcomeBanner from '@/components/Home/WelcomeBanner'
 
 export default function Home() {
   return (
-    <main className='bg-slate-900'>
+    <main className='bg-accent'>
       <Hero />
       <WelcomeBanner />
       <Rooms />
