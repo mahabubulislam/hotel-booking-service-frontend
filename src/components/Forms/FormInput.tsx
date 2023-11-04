@@ -57,7 +57,7 @@ const FormInput = ({
                 placeholder={placeholder}
                 className={`${
                   className ? className : ''
-                }  border border-gray-300 text-gray-400 sm:text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 bg-gray-700`}
+                }  border border-gray-300 text-gray-400 sm:text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 bg-gray-700 focus:outline-none focus:shadow-outline`}
                 {...field}
                 value={value ? value : field.value}
               />
@@ -78,7 +78,7 @@ const FormInput = ({
               placeholder={placeholder}
               className={`${
                 className ? className : ''
-              }  border border-gray-300 text-gray-400 sm:text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 bg-gray-700`}
+              }  border border-gray-300 text-gray-400 sm:text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 bg-gray-700 focus:outline-none focus:shadow-outline`}
               {...field}
               value={value ? value : field.value}
             />

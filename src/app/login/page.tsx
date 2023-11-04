@@ -5,9 +5,9 @@ export const metadata: Metadata = {
 }
 const Login = () => {
   return (
-    <section className='bg-accent'>
+    <main className='bg-accent'>
       <LoginForm />
-    </section>
+    </main>
   )
 }
 
