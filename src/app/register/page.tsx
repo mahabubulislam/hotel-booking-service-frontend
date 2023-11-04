@@ -5,9 +5,9 @@ export const metadata: Metadata = {
 }
 const Register = () => {
   return (
-    <section className='bg-accent'>
+    <main className='bg-accent'>
       <RegisterForm />
-    </section>
+    </main>
   )
 }
 

@@ -6,7 +6,7 @@ import PrimaryButton from '../ui/PrimaryButton'
 const RegisterForm = () => {
   const onSubmit = async (data: any) => {}
   return (
-    <div className='flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen'>
+    <section className='flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen'>
       <div className='w-full  rounded-lg shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px]  md:mt-0 sm:max-w-lg py-5'>
         <div className='p-6 space-y-4 md:space-y-6 sm:p-8'>
           <h1 className='text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white'>
@@ -65,7 +65,7 @@ const RegisterForm = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

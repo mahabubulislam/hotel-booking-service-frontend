@@ -1,5 +1,5 @@
 const Rooms = () => {
-  return <section></section>
+  return <main></main>
 }
 
 export default Rooms
