@@ -1,8 +1,8 @@
 'use client'
 
-import Form from '../Forms/Form'
-import FormInput from '../Forms/FormInput'
-import PrimaryButton from '../ui/PrimaryButton'
+import Form from '@/components/Forms/Form'
+import FormInput from '@/components/Forms/FormInput'
+import PrimaryButton from '@/components/ui/PrimaryButton'
 
 const ContactForm = () => {
   return (
