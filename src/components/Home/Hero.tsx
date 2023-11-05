@@ -1,5 +1,5 @@
 import heroImg from '@/assets/homepage-hero.jpg'
-import SearchBar from './SearchBar'
+import SearchBar from '@/components/ui/SearchBar'
 const Hero = () => {
   return (
     <section className='relative'>
