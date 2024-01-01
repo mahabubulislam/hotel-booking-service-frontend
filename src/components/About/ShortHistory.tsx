@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const ShortHistory = () => {
   return (
-    <section className='flex gap-10 items-center justify-between'>
+    <section className='flex px-20 gap-10 items-center justify-between'>
       <aside className='relative py-10 mt-40'>
         <Image
           className='w-1/2 h-3/4 absolute  translate-x-44 -translate-y-32'

@@ -6,8 +6,8 @@ export const metadata: Metadata = {
 }
 const Contact = () => {
   return (
-    <main className='bg-accent'>
-      <section className='flex flex-col lg:flex-row items-start py-20 gap-20 lg:items-center container mx-auto'>
+    <main className=' bg-accent'>
+      <section className='flex flex-col lg:flex-row items-start p-20 gap-20 lg:items-center'>
         <aside className='pt-10 text-white flex-1'>
           <section className='mb-10'>
             <p className='text-primary uppercase my-5'>Contact Information</p>

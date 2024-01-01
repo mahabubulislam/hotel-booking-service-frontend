@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 const Description = () => {
   return (
-    <section className='flex gap-20 items-center justify-between'>
-      <article className='flex flex-col gap-8 flex-1 text-white'>
+    <section className='flex px-20 gap-20 items-center justify-between '>
+      <article className=' flex flex-col gap-8 flex-1 text-white'>
         <p className='text-primary uppercase'>ENDLESS INDOOR AND OUTDOOR FUN</p>
         <h2 className='text-4xl'>
           A World of Choice and Endless Adventure Await You
